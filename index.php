@@ -243,11 +243,11 @@
             <div class="headers">
                <h2>Introducing Our Products</h2>
                <div class="navigation">
-                  <a type="button" id="all" class="active All">All</a>
-                  <a type="button" class="veg">Vegetables</a>
-                  <a type="button" class="fruitsBtn ">Fruit</a>
-                  <a type="button" class="">Meat & Fish</a>
-                  <a type="button" href="shop.php" class="">View All</a>
+                  <a type="button" id="all" data-filter="all">All</a>
+                  <a type="button" data-filter=".Vegetables">Vegetables</a>
+                  <a type="button" data-filter=".fruits">Fruit</a>
+                  <a type="button" data-filter="">Meat & Fish</a>
+                  <a type="button" href="shop.php">View All</a>
                </div>
             </div>
          </div>
@@ -257,7 +257,7 @@
             <!-- *Product Card Box Start Here -->
             <section id="ProductCardBox">
                <div class="container">
-                  <div class="row justify-content-center">
+                  <div class="row justify-content-center productCart" >
                      <div class="cart Vegetables ">
                         <a href="#">
                            <div class="imgBox">
@@ -294,7 +294,7 @@
                         </div>
                         <!-- *Hover Effect End Here -->
                      </div>
-                     <div class="cart Vegetables">
+                     <div class="cart mix Vegetables">
                         <a href="#">
                            <div class="imgBox">
                               <img class="img-fluid" src="./assets/img/Chanise.png" alt="">
@@ -330,7 +330,7 @@
                         </div>
                         <!-- *Hover Effect End Here -->
                      </div>
-                     <div class="cart fruits">
+                     <div class="cart mix fruits">
                         <a href="#">
                            <div class="imgBox">
                               <img class="img-fluid" src="./assets/img/Ladies.png" alt="">
@@ -372,7 +372,7 @@
                         </div>
                         <!-- *Label End Here -->
                      </div>
-                     <div class="cart Vegetables">
+                     <div class="cart mix Vegetables">
                         <a href="#">
                            <div class="imgBox">
                               <img class="img-fluid" src="./assets/img/Eggplant.png" alt="">
@@ -409,7 +409,7 @@
                         </div>
                         <!-- *Hover Effect End Here -->
                      </div>
-                     <div class="cart Vegetables">
+                     <div class="cart mix Vegetables">
                         <a href="#">
                            <div class="imgBox">
                               <img class="img-fluid" src="./assets/img/Fresh.png" alt="">
@@ -446,7 +446,7 @@
                         </div>
                         <!-- *Hover Effect End Here -->
                      </div>
-                     <div class="cart fruits">
+                     <div class="cart mix fruits">
                         <a href="#">
                            <div class="imgBox">
                               <img class="img-fluid" src="./assets/img/GreenApple.png" alt="">
@@ -483,7 +483,7 @@
                         </div>
                         <!-- *Hover Effect End Here -->
                      </div>
-                     <div class="cart fruits">
+                     <div class="cart mix fruits">
                         <a href="#">
                            <div class="imgBox">
                               <img class="img-fluid" src="./assets/img/GreenCapsicum.png" alt="">
@@ -520,7 +520,7 @@
                         </div>
                         <!-- *Hover Effect End Here -->
                      </div>
-                     <div class="cart Vegetables">
+                     <div class="cart mix Vegetables">
                         <a href="#">
                            <div class="imgBox">
                               <img class="img-fluid" src="./assets/img/GreenChili.png" alt="">
@@ -1241,6 +1241,7 @@
 
    <script src="./assets/js/bootstrap.bundle.min.js"></script>
    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+   <script src="./assets/js/mixitup.min.js"></script>
    <script src="./assets/js/main.js"></script>
 </body>
 

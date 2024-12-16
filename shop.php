@@ -1006,38 +1006,38 @@
                      </div>
                   </div>
                      <ul class="shopOpen active">
-                        <li class="d-flex align-items-center All">
-                           <input type="radio" id="AllMobile" name="Categories">
-                           <label for="AllMobile">All(52)<span>(134)</span></label>
-                        </li>
-                        <li class="d-flex align-items-center freshFruit">
-                           <input type="radio" id="FreshMobile" name="Categories">
-                           <label for="FreshMobile">Fresh Fruit (25)<span>(134)</span></label>
-                        </li>
-                        <li class="d-flex align-items-center vegetable">
-                           <input type="radio" id="VegetablesMobile" name="Categories">
-                           <label for="VegetablesMobile">Vegetables<span>(150)</span></label>
-                        </li>
-                        <li class="d-flex align-items-center cooking">
-                           <input type="radio" id="CookingMobile" name="Categories">
-                           <label for="CookingMobile">Cooking<span>(54)</span></label>
-                        </li>
-                        <li class="d-flex align-items-center snacking">
-                           <input type="radio" id="SnacksMobile" name="Categories">
-                           <label for="SnacksMobile">Snacks<span>(47)</span></label>
-                        </li>
-                        <li class="d-flex align-items-center beverage">
-                           <input type="radio" id="BeveragesMobile" name="Categories">
-                           <label for="BeveragesMobile">Beverages<span>(43)</span></label>
-                        </li>
-                        <li class="d-flex align-items-center health">
-                           <input type="radio" id="BeautyMobile" name="Categories">
-                           <label for="BeautyMobile">Beauty & Health<span>(38)</span></label>
-                        </li>
-                        <li class="d-flex align-items-center bread" class="d-flex align-items-center">
-                           <input type="radio" id="BreadMobile" name="Categories">
-                           <label for="BreadMobile">Bread & Bakery<span>(15)</span></label>
-                        </li>
+                       <li class="d-flex align-items-center All" >
+                              <input type="radio" id="All" name="Categories" checked>
+                              <label for="All" data-filter="all">All(52)<span>(134)</span></label>
+                           </li>
+                           <li class="d-flex align-items-center freshFruit" >
+                              <input type="radio" id="Fresh" name="Categories">
+                              <label for="Fresh" data-filter=".freshFruit">Fresh Fruit (25)<span>(134)</span></label>
+                           </li>
+                           <li class="d-flex align-items-center vegetable" >
+                              <input type="radio" id="Vegetables" name="Categories">
+                              <label for="Vegetables" data-filter=".vegetable">Vegetables<span>(150)</span></label>
+                           </li>
+                           <li class="d-flex align-items-center cooking" >
+                              <input type="radio" id="Cooking" name="Categories">
+                              <label for="Cooking" data-filter=".cooking">Cooking<span>(54)</span></label>
+                           </li>
+                           <li class="d-flex align-items-center snacking">
+                              <input type="radio" id="Snacks" name="Categories">
+                              <label for="Snacks"  data-filter=".snacking">Snacks<span>(47)</span></label>
+                           </li>
+                           <li class="d-flex align-items-center beverage" >
+                              <input type="radio" id="Beverages" name="Categories">
+                              <label for="Beverages" data-filter=".beverage">Beverages<span>(43)</span></label>
+                           </li>
+                           <li class="d-flex align-items-center health">
+                              <input type="radio" id="Beauty" name="Categories">
+                              <label for="Beauty"  data-filter=".health">Beauty & Health<span>(38)</span></label>
+                           </li>
+                           <li class="d-flex align-items-center bread" >
+                              <input type="radio" id="Bread" name="Categories">
+                              <label for="Bread" data-filter=".bread">Bread & Bakery<span>(15)</span></label>
+                           </li>
                      </ul>
                </div>
                <!-- *All Categories Radio Buttons End Here-->
@@ -1084,19 +1084,21 @@
                      </div>
                   </div>
                      <ul class="ratingOpen active">
-                        <li class="d-flex align-items-center">
-                           <input type="radio" id="fiveStar" name="Categories">
+                        <li class="d-flex align-items-center ">
+                           <input type="radio" id="fiveStar" name="rating" checked>
                            <label for="fiveStar">
-                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
-                              <span>5.0</span>
+                              <span>
+                                 <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                                 <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                                 <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                                 <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                                 <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                                 <span>5.0</span>
+                              </span>
                            </label>
                         </li>
                         <li class="d-flex align-items-center">
-                           <input type="radio" id="ForStar" name="Categories">
+                           <input type="radio" id="ForStar" name="rating">
                            <label for="ForStar">
                               <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
                               <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
@@ -1108,7 +1110,7 @@
                            </label>
                         </li>
                         <li class="d-flex align-items-center">
-                           <input type="radio" id="threeStar" name="Categories">
+                           <input type="radio" id="threeStar" name="rating">
                            <label for="threeStar">
                               <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
                               <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
@@ -1121,7 +1123,7 @@
                            </label>
                         </li>
                         <li class="d-flex align-items-center">
-                           <input type="radio" id="tweStar" name="Categories">
+                           <input type="radio" id="tweStar" name="rating">
                            <label for="tweStar">
                               <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
                               <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
@@ -1135,7 +1137,7 @@
                            </label>
                         </li>
                         <li class="d-flex align-items-center">
-                           <input type="radio" id="oneStar" name="Categories">
+                           <input type="radio" id="oneStar" name="rating">
                            <label for="oneStar">
                               <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
                               <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
@@ -1349,7 +1351,7 @@
    <!-- *Footer End Hear -->
    <script src="./assets/js/bootstrap.bundle.min.js"></script>
    <script src="./assets/js/jquery-3.7.1.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+   <script src="./assets/js/mixitup.min.js"></script>
    <script src="./assets/js/main.js"></script>
    <script src="./assets/js/shop.js"></script>
 </body>
