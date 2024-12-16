@@ -728,8 +728,7 @@ nav .quickCall a {
 }
 
 .shopOpen {
-  transition: 0.3s ease;
-  transform: translateY(-100%);
+  transition: 0.2s ease;
   height: 0;
   overflow: hidden;
 }
@@ -755,9 +754,7 @@ nav .quickCall a {
   margin-left: 5px;
 }
 .shopOpen.active {
-  transform: translateY(0%);
   height: 273px;
-  overflow: visible;
 }
 /* *All Categories Radio Buttons End Here */
 
@@ -776,7 +773,7 @@ nav .quickCall a {
   overflow: hidden;
 }
 .priceRangeOpen {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   transform: translateY(-100%);
   height: 0;
   overflow: hidden;
@@ -892,8 +889,7 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 .ratingOpen {
-  transition: 0.3s ease;
-  transform: translateY(-100%);
+  transition: 0.2s ease;
   height: 0;
   overflow: hidden;
 }
@@ -904,8 +900,8 @@ input[type='range']::-webkit-slider-thumb {
   cursor: pointer;
 }
 .ratingOpen li input {
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   margin-right: 8px;
   background: #00b207;
   cursor: pointer;
@@ -919,9 +915,7 @@ input[type='range']::-webkit-slider-thumb {
   margin-left: 5px;
 }
 .ratingOpen.active {
-  transform: translateY(0%);
   height: 180px;
-  overflow: visible;
 }
 /* *Populae Tag Staet Here */
 .popularBtn {
@@ -944,15 +938,12 @@ input[type='range']::-webkit-slider-thumb {
 
 .popularTagBox {
   transition: 0.3s ease;
-  transform: translateY(-100%);
   height: 0;
   overflow: hidden;
 }
 
 .popularTagBox.active {
-  transform: translateY(0%);
-  height: auto;
-  overflow: visible;
+  height: 230px;
 }
 .popularCollapse .popularTag {
   border-radius: 30px;
@@ -964,7 +955,7 @@ input[type='range']::-webkit-slider-thumb {
   margin: 4px;
   display: inline-block;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .popularCollapse .popularTag:focus,
 .popularCollapse .popularTag:hover {

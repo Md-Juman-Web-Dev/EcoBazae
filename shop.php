@@ -52,37 +52,37 @@
                         </div>
                      </div>
                         <ul class="shopOpen active">
-                           <li class="d-flex align-items-center All">
+                           <li class="d-flex align-items-center All" >
                               <input type="radio" id="All" name="Categories" checked>
-                              <label for="All">All(52)<span>(134)</span></label>
+                              <label for="All" data-filter="all">All(52)<span>(134)</span></label>
                            </li>
-                           <li class="d-flex align-items-center freshFruit">
+                           <li class="d-flex align-items-center freshFruit" >
                               <input type="radio" id="Fresh" name="Categories">
-                              <label for="Fresh">Fresh Fruit (25)<span>(134)</span></label>
+                              <label for="Fresh" data-filter=".freshFruit">Fresh Fruit (25)<span>(134)</span></label>
                            </li>
-                           <li class="d-flex align-items-center vegetable">
+                           <li class="d-flex align-items-center vegetable" >
                               <input type="radio" id="Vegetables" name="Categories">
-                              <label for="Vegetables">Vegetables<span>(150)</span></label>
+                              <label for="Vegetables" data-filter=".vegetable">Vegetables<span>(150)</span></label>
                            </li>
-                           <li class="d-flex align-items-center cooking">
+                           <li class="d-flex align-items-center cooking" >
                               <input type="radio" id="Cooking" name="Categories">
-                              <label for="Cooking">Cooking<span>(54)</span></label>
+                              <label for="Cooking" data-filter=".cooking">Cooking<span>(54)</span></label>
                            </li>
                            <li class="d-flex align-items-center snacking">
                               <input type="radio" id="Snacks" name="Categories">
-                              <label for="Snacks">Snacks<span>(47)</span></label>
+                              <label for="Snacks"  data-filter=".snacking">Snacks<span>(47)</span></label>
                            </li>
-                           <li class="d-flex align-items-center beverage">
+                           <li class="d-flex align-items-center beverage" >
                               <input type="radio" id="Beverages" name="Categories">
-                              <label for="Beverages">Beverages<span>(43)</span></label>
+                              <label for="Beverages" data-filter=".beverage">Beverages<span>(43)</span></label>
                            </li>
                            <li class="d-flex align-items-center health">
                               <input type="radio" id="Beauty" name="Categories">
-                              <label for="Beauty">Beauty & Health<span>(38)</span></label>
+                              <label for="Beauty"  data-filter=".health">Beauty & Health<span>(38)</span></label>
                            </li>
-                           <li class="d-flex align-items-center bread" class="d-flex align-items-center">
+                           <li class="d-flex align-items-center bread" >
                               <input type="radio" id="Bread" name="Categories">
-                              <label for="Bread">Bread & Bakery<span>(15)</span></label>
+                              <label for="Bread" data-filter=".bread">Bread & Bakery<span>(15)</span></label>
                            </li>
                         </ul>
                   </div>
@@ -336,8 +336,8 @@
 
                   <!-- *Product Card Box Start Here -->
                   <section id="ProductCardBox">
-                     <div class="row justify-content-center">
-                        <div class="cart VegetablesCard">
+                     <div class="row justify-content-center productCart">
+                        <div class="cart mix vegetable"  >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/Image.png" alt="">
@@ -377,7 +377,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart VegetablesCard">
+                        <div class="cart mix vegetable">
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/Chanise.png" alt="">
@@ -417,7 +417,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart FruitCard">
+                        <div class="cart mix freshFruit">
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/Ladies.png" alt="">
@@ -465,7 +465,7 @@
 
 
                         </div>
-                        <div class="cart VegetablesCard">
+                        <div class="cart mix vegetable" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/Eggplant.png" alt="">
@@ -506,7 +506,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart CookingCard">
+                        <div class="cart mix vegetable" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/Fresh.png" alt="">
@@ -547,7 +547,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart FruitCard">
+                        <div class="cart mix freshFruit" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/GreenApple.png" alt="">
@@ -588,7 +588,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart VegetablesCard">
+                        <div class="cart mix freshFruit" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/GreenCapsicum.png" alt="">
@@ -629,7 +629,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart VegetablesCard">
+                        <div class="cart mix cooking" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/GreenChili.png" alt="">
@@ -670,7 +670,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart VegetablesCard">
+                        <div class="cart mix health" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/GreenCucumber.png" alt="">
@@ -711,7 +711,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart CookingCard">
+                        <div class="cart mix cooking" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/GreenLittuce.png" alt="">
@@ -752,7 +752,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart VegetablesCard">
+                        <div class="cart mix bread" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/LadiesFinger.png" alt="">
@@ -793,7 +793,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart VegetablesCard">
+                        <div class="cart mix beverage" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/Green.png" alt="">
@@ -834,7 +834,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart VegetablesCard">
+                        <div class="cart mix snacking" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/RedChili.png" alt="">
@@ -875,7 +875,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart VegetablesCard">
+                        <div class="cart mix beverage" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/RedTomato.png" alt="">
@@ -916,7 +916,7 @@
                            <!-- *Hover Effect End Here -->
 
                         </div>
-                        <div class="cart FruitCard">
+                        <div class="cart mix snacking" >
                            <a href="#">
                               <div class="imgBox">
                                  <img class="img-fluid" src="./assets/img/FreshMango.png" alt="">
@@ -1005,7 +1005,6 @@
                         <iconify-icon icon="ep:arrow-down-bold"></iconify-icon>
                      </div>
                   </div>
-                  <li class="shopCollapse">
                      <ul class="shopOpen active">
                         <li class="d-flex align-items-center All">
                            <input type="radio" id="AllMobile" name="Categories">
@@ -1040,7 +1039,6 @@
                            <label for="BreadMobile">Bread & Bakery<span>(15)</span></label>
                         </li>
                      </ul>
-                  </li>
                </div>
                <!-- *All Categories Radio Buttons End Here-->
                <!-- *Price Range Slider Start Here -->
@@ -1085,27 +1083,26 @@
                         <iconify-icon icon="ep:arrow-down-bold"></iconify-icon>
                      </div>
                   </div>
-                  <li class="shopCollapse">
                      <ul class="ratingOpen active">
                         <li class="d-flex align-items-center">
                            <input type="radio" id="fiveStar" name="Categories">
                            <label for="fiveStar">
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
                               <span>5.0</span>
                            </label>
                         </li>
                         <li class="d-flex align-items-center">
                            <input type="radio" id="ForStar" name="Categories">
                            <label for="ForStar">
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
                               <span>4.0 & up</span>
                            </label>
@@ -1113,12 +1110,12 @@
                         <li class="d-flex align-items-center">
                            <input type="radio" id="threeStar" name="Categories">
                            <label for="threeStar">
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
                               <span>3.0 & up</span>
                            </label>
@@ -1126,13 +1123,13 @@
                         <li class="d-flex align-items-center">
                            <input type="radio" id="tweStar" name="Categories">
                            <label for="tweStar">
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
                               <span>2.0 & up</span>
                            </label>
@@ -1140,22 +1137,19 @@
                         <li class="d-flex align-items-center">
                            <input type="radio" id="oneStar" name="Categories">
                            <label for="oneStar">
-                              <iconify-icon icon="twemoji:star" width="20" height="20"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="twemoji:star" width="17" height="17"></iconify-icon>
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
-                              <iconify-icon icon="heroicons:star-20-solid" width="20" height="20"
+                              <iconify-icon icon="heroicons:star-20-solid" width="17" height="17"
                                  style="color: #b3b3b3"></iconify-icon>
                               <span>1.0 & up</span>
                            </label>
                         </li>
-
-
                      </ul>
-                  </li>
                </div>
                <!-- *Rating End Here-->
 
@@ -1355,6 +1349,7 @@
    <!-- *Footer End Hear -->
    <script src="./assets/js/bootstrap.bundle.min.js"></script>
    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
    <script src="./assets/js/main.js"></script>
    <script src="./assets/js/shop.js"></script>
 </body>

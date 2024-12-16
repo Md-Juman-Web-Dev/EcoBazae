@@ -49,6 +49,9 @@ $(document).ready(function () {
     );
   });
 
+  // Filtering
+  var mixer = mixitup('.productCart');
+
   // Filter Mobile Button
   $('.filterMdBtn').click(function () {
     $('.filterCotant').addClass('active');
